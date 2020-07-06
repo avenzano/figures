@@ -38,7 +38,7 @@ Retorna UNA figura correspondiente al id proporcionado (el id se retorna en el b
 
 **GET** /figures/?_parámetros_
 
-Siendo _parámetros_ una url compuesta como se explico mas arriba.
+(Siendo _parámetros_ una url compuesta como se explico mas arriba) Retorna una lista de figuras que cumplan con las condiciones especificadas en los parámetros _(nota: no especificar ningún parámetro retornará todas las figuras)_.
 
 **POST** /figures
 
