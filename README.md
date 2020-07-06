@@ -32,15 +32,15 @@ la sintaxis es igual para el resto de las propiedades de una figura: diameter, b
 
 **Detalle de los endpoints**
 
-GET /figures/{id}
+**GET** /figures/{id}
 
 Retorna UNA figura correspondiente al id proporcionado (el id se retorna en el body al crear la figura)
 
-GET /figures/?_parámetros_
+**GET** /figures/?_parámetros_
 
 Siendo _parámetros_ una url compuesta como se explico mas arriba.
 
-POST /figures
+**POST** /figures
 
 Especificando Content-Type a 'application/json' y un body con los siguientes requerimientos:
 
@@ -59,4 +59,8 @@ o bien:
 }
 ```
 
+en ambos casos se retornará un body que incluirá el id de la figura para poder recupearla luego (código http 200 por supuesto)
 
+## Diagrama UML
+
+El diagrama UML del modelo de datos se encuentra en el **docs/Diagrama_UML.png**
