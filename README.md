@@ -44,5 +44,19 @@ POST /figures
 
 Especificando Content-Type a 'application/json' y un body con los siguientes requerimientos:
 
+```json
+{
+  "type" : "CIRCLE",
+  "diameter" : <number>
+}
+```
+o bien:
+```json
+{
+  "type" : ["RECTANGLE"|"TRIANGLE"],
+  "base" : <number>,
+  "height" : <number>
+}
+```
 
 
