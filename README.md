@@ -64,3 +64,4 @@ en ambos casos se retornará un body que incluirá el id de la figura para poder
 ## Diagrama UML
 
 El diagrama UML del modelo de datos se encuentra en el **docs/Diagrama_UML.png**
+_(en algunas clases se obviaron los métodos getter/setter si se especificaron las propiedades correspondientes)_
